@@ -1,0 +1,97 @@
+{
+    "schema_version": 1,
+    "managed_keys": [
+        "disable_theme",
+        "search_post_types",
+        "disable_search",
+        "enable_admin_framework",
+        "admin_framework_redirect_roles",
+        "style_login",
+        "hide_language_selector",
+        "enable_turnstyle",
+        "dark_chrome",
+        "hide_screenoptions",
+        "hide_help_toggle",
+        "hide_toolbar",
+        "base_theme_scale",
+        "accent_theme_scale",
+        "use_modern_media_page",
+        "enable_svg_uploads",
+        "enable_font_uploads",
+        "use_modern_users_page",
+        "use_modern_comments_page",
+        "use_custom_dashboard",
+        "enable_uixpress_analytics",
+        "analytics_track_logged_in_users",
+        "analytics_exclude_bots",
+        "analytics_conversion_paths",
+        "enable_database_explorer",
+        "enable_role_editor",
+        "enable_activity_logger",
+        "activity_log_retention_days",
+        "activity_log_auto_cleanup"
+    ],
+    "settings": {
+        "disable_theme": [],
+        "search_post_types": [
+            {
+                "slug": "post",
+                "name": "Posts",
+                "rest_base": "wp/v2/posts"
+            },
+            {
+                "slug": "page",
+                "name": "Pages",
+                "rest_base": "wp/v2/pages"
+            }
+        ],
+        "disable_search": true,
+        "enable_admin_framework": true,
+        "admin_framework_redirect_roles": [
+            {
+                "id": "",
+                "value": "editor",
+                "type": "role"
+            },
+            {
+                "id": "",
+                "value": "author",
+                "type": "role"
+            },
+            {
+                "id": "",
+                "value": "contributor",
+                "type": "role"
+            },
+            {
+                "id": "",
+                "value": "subscriber",
+                "type": "role"
+            }
+        ],
+        "style_login": true,
+        "hide_language_selector": true,
+        "enable_turnstyle": true,
+        "dark_chrome": false,
+        "hide_screenoptions": false,
+        "hide_help_toggle": false,
+        "hide_toolbar": false,
+        "base_theme_scale": [],
+        "accent_theme_scale": [],
+        "use_modern_media_page": true,
+        "enable_svg_uploads": true,
+        "enable_font_uploads": true,
+        "use_modern_users_page": true,
+        "use_modern_comments_page": true,
+        "use_custom_dashboard": false,
+        "enable_uixpress_analytics": true,
+        "analytics_track_logged_in_users": true,
+        "analytics_exclude_bots": false,
+        "analytics_conversion_paths": "/thank-you",
+        "enable_database_explorer": true,
+        "enable_role_editor": true,
+        "enable_activity_logger": true,
+        "activity_log_retention_days": 90,
+        "activity_log_auto_cleanup": true
+    }
+}
